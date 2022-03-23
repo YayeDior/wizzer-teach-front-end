@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+body{
+  display: flex;
+  justify-content:center;
+  flex-direction: columns;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: 'poppins', sans-serif;
+}
+form {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 10px;
+  min-width: 500px;
+  width: 600px;
+}
+form h2{
+  color: #4B6DC4;
+  text-align:center;
+	
+}
+form h5{
+  color: #eb7371;
+  text-align:center;
+}
+form .logo{
+  text-align:center;
+}
+form .social-media{
+  margin-top: -10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+color: #4B6DC4;
+}
+form .social-media p{
+  padding: 5px;
+  width: 20px;
+  margin-left: 10px;
+  border-radius: 100%;
+  border: 1px solid #545454;
+  text-align: center;
+  cursor:pointer;
+  color: #545454;
+  background: #4B6DC4;
+}
+form p.choose-email{
+  text-align:center;
+}
+form .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+form .inputs input[type='texte']{
+  padding: 30px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 30px;
+}
+form p.inscription{
+  font-size: 8px;
+  margin-bottom: px;
+  color: #878787;
+ text-align:center;
+position: center;
+
+}
+form p.connexion{
+  font-size: 8px;
+  margin-bottom: px;
+  color: #878787;
+ text-align:center;
+position: center;
+
+}
+form p.inscription span{
+  color: #eb7371;
+	 text-align:center;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  width: 170px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #C8D3ED;
+  outline:none;
+  cursor:pointer;
+}
+:root {
+  --navbar-background-color: #f2f2f2;
+  --navbar-item-hovered-color:white;
+  --navbar-separator-color:#ececec;
+  --navbar-icon-color:#646c79;
+  --navbar-text-color:black;
+  --navbar-transition-speed: .2s;
+  --primary-color:#7C4DFF;
+  --navbar-logo-background-color:#e2dfe4;
+}
+
+html, body {
+  margin:0;
+  font-family: 'Source Sans Pro';
+  font-size:16px;
+}
+
+main {
+  padding: 1rem 4rem;
+  margin-left: 5rem;
+  text-align: justify;
+}
+
